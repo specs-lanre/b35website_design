@@ -1,0 +1,52 @@
+@media all and (max-width:800px)
+{
+
+	
+.title_container{padding-top:40px;}	
+.cover{height:400px;}
+
+
+
+.nav_left{
+	width:100%;margin-bottom:0px;
+	border:solid white 0px;
+display:block;text-align:center;padding-left:0px;}
+
+.nav_right{display:block;width:100%;text-align:center;
+}
+.nav_right a{
+padding-left:2px;
+padding-right:2px;
+padding-top:6px;
+padding-bottom:6px;
+width:60px;
+
+}
+
+
+/*INTRO SECTION*/
+
+
+.intro{padding-top:20px;padding-bottom:20px;text-align:center;	}
+.intro_item{
+width:20%;display:inline-block;padding:10px;
+margin-top:10px;margin-left:5px;}
+.intro_title{font-size:18px;}
+
+
+/*WELCOME*/
+.welcome_title{font-size:20px;
+font-weight:bolder;}
+.welcome_left{display:inline-block;width:90%;
+height:auto;padding:10px;font-size:20px;}
+.welcome_right{width:90%;padding:10px;height:300px;}
+
+
+/*VIDEO*/
+
+.video_section{	padding:10px;}
+.video_section video{width:80%;}
+
+
+	
+}

@@ -1,0 +1,15 @@
+/*  VIDEO CSS*/
+
+.video_section{
+
+	padding:20px;
+	text-align:center;
+	background-color:black;
+	margin-top:0px;
+	margin-bottom:10px;
+	box-sizing:border-box;
+}
+
+.video_section video{
+width:70%;
+}
