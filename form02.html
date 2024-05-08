@@ -1,0 +1,73 @@
+<style>
+.dform{text-align:center;}
+form{width:700px;display:inline-block;}
+
+label{width:80%;display:inline-block;padding:10px 5px;
+color:#31012B;font-weight:bolder;text-align:center;}
+
+
+
+input{width:80%;display:inline-block;padding:20px 5px;
+color:#31012B;font-weight:bolder;text-align:center;}
+
+input[type=checkbox]{width:10%;display:inline-block;padding:20px 5px;
+color:#31012B;font-weight:bolder;text-align:center;}
+
+.check_input label{width:20%;display:inline-block;padding:10px 5px;
+color:#31012B;font-weight:bolder;text-align:center;}
+
+select {width:80%;display:inline-block;padding:10px 5px;
+color:#31012B;font-weight:bolder;text-align:center;}
+</style>
+<div class="dform">
+
+<form method="POST">
+<label for="names">Enter your names</label>
+<input type="text" placeholder="Enter your names" 
+id="names" name="names"
+>
+
+<label for="emailaddress">Email addres</label>
+<input type="email" name="emailaddress"
+placeholder="Enter email address" 
+id="emailaddress">
+
+
+<label  for="phonenumber">Phone number</label>
+<input type="number" id="phonenumber"
+placeholder="Enter your phone number" name="phonenumber">
+
+
+<label>Type some message</label>
+<textarea rows=3 cols=50 name="message">
+</textarea>
+
+
+<label for="enquiryoptions">Select an option</label>
+<select name="enquiryoptions" id="enquiryoptions">
+<option ></option>
+
+<option name="sales">Sales </option>
+<option name="enquiry">Enquiry </option>
+
+<option name="career">Career </option>
+
+</select>
+<div class="check_input">
+<label for="discountcard">Discount card
+<input type="checkbox" name="discountcard" 
+id="discountcard">
+</label>
+<label for="promotions">Promotions
+<input type="checkbox" name="promotions">
+</label>
+<label for="newsletter">Newsletter
+<input type="checkbox" name="newsletter">
+</label>
+</div>
+<input type="submit" value="Send enquiry">
+</form>
+
+</div>
+
+
