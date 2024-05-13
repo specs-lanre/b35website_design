@@ -1,6 +1,6 @@
 html,body{padding:0px;margin:0px;}
 
-
+.color-red{border:solid 2px red; }
 .header_container{
 background-image:url(../images/back.jpg);
 height:auto;
